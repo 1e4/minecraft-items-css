@@ -2,7 +2,6 @@ const {items, sections} = require('./items');
 const fs = require('fs');
 
 let css = `
-<style>
   .icon-32 {
     background-image: url('./mcsprite.png');
     image-rendering: crisp-edges;
@@ -30,7 +29,7 @@ let css = `
   }
 `;
 
-let html = ``;
+let html = `<head><title>Demo of Minecraft Items as CSS</title><link rel="stylesheet" href="./minecraft-items-spritesheet.css"></head><body>`;
 
 for (const item in items) {
   const i = items[item];
@@ -49,17 +48,28 @@ for (const item in items) {
 
   html += `<br>
 <br>
-${item} ${i.pos} ${row} ${column}
+${item}
+<div style="display: block">
+
 <div class="icon-32 ${className}"></div>
 <div class="icon-32 icon-size-64 ${className}"></div>
 <div class="icon-32 icon-size-128 ${className}"></div>
 <div class="icon-32 icon-size-256 ${className}"></div>
+</div>
+ .${className}
 <br><br><br><br>`
 }
 
-css += `</style>`
+html += `</body>`;
 
-fs.writeFile("./test.html", css + html, (err) => {
+fs.writeFile("./minecraft-items-spritesheet.css", css, (err) => {
+  if(!err)
+    console.log("Style written")
+  else
+    console.log(err)
+})
+
+fs.writeFile("./index.html", html, (err) => {
   if (!err)
     console.log("File saved")
   else
