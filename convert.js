@@ -31,11 +31,21 @@ let css = `
 
 let html = `<head><title>Demo of Minecraft Items as CSS</title><link rel="stylesheet" href="./minecraft-items-spritesheet.css"></head><body>`;
 
+const remap = {
+  '3d': '_3d',
+  '???': 'qqq'
+};
+
 for (const item in items) {
   const i = items[item];
   const row = (Math.floor(i.pos / 32)) - 1;
   const column = Math.floor(i.pos % 32) - 1;
-  const className = item.toLowerCase().split(' ').join('-');
+  let className = item.toLowerCase().split(' ').join('-').replace("'", '').replace("(", '').replace(")", '').replace(".", '');
+  
+  if (Object.keys(remap).includes(className)) {
+    className = remap[className];
+  }
+  
   css += `
     .${className} {
     --n:1; /* scale */
