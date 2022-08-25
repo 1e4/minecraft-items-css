@@ -9,14 +9,14 @@ Using Minecraft Wikis sprite and data returned [here](https://minecraft.fandom.c
 Import the stylesheet provided
 
 ```css
-@import "./minecraft-items-spritesheet.css"
+@import "./minecraft-items-spritesheet.css";
 ```
 
-Copy the spritesheet in the repository to the same place as the ``index.html` or you can override where the location is with
+Copy the spritesheet in the repository to the same place as the `index.html` or you can override where the location is with
 
 ```css
 .icon-32 {
-    background-image: url('./mcsprite.png');
+    background-image: url('./InvSprite.webp');
 }
 ```
 
