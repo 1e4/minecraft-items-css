@@ -4,6 +4,10 @@
       <input type="text" placeholder="What do you want to search for?" v-model="form.text">
     </div>
 
+    <div class="icon-list-meta-nav">
+      {{ Object.keys(icons).length }} icon results
+    </div>
+
     <div class="icon-list-grid-items">
       <MinecraftIcon v-for="(icon, key) in icons" :key="icon" :icon="icon" :icon-name="key"/>
     </div>
@@ -15,17 +19,30 @@
 #icon-list-grid {
   display: grid;
   grid-template: "header"
+  "meta"
 "main";
   height: 100vh;
   overflow: hidden;
-  grid-template-rows: 40px auto;
+  grid-template-rows: 60px 50px auto;
+
+  .icon-list-meta-nav {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    justify-self: center;
+    width: 100%;
+    padding: 0 5rem;
+  }
 
   .icon-list-grid-items {
     grid-area: main;
-    overflow: scroll;
+    overflow: hidden scroll;
     display: flex;
     flex-flow: row wrap;
     align-content: start;
+    max-width: 1280px;
+    justify-self: center;
+    width: 100%;
 
     > div {
       //display: flex;
@@ -67,7 +84,7 @@ export default {
   data() {
     return {
       form: {
-        text: 'dia'
+        text: ''
       }
     }
   },
@@ -75,12 +92,39 @@ export default {
     icons: function () {
       return Object.fromEntries(
         Object.entries(icons).filter(([key]) => {
+          const query = this.form.text.toLowerCase();
 
-          return key.toLowerCase()
-            .includes(this.form.text.toLowerCase());
+          const cssClass =
+            query.split(' ')
+              .join('-')
+              .replace("'", '')
+              .replace("(", '')
+              .replace(")", '')
+              .replace(".", '');
+
+          const fCssClass =
+            key.toLowerCase()
+              .split(' ')
+              .join('-')
+              .replace("'", '')
+              .replace("(", '')
+              .replace(")", '')
+              .replace(".", '');
+
+          if (key.includes('Acacia Boat with Chest')) {
+
+            console.log(
+              'Trying',
+              cssClass,
+              fCssClass,
+              query,
+              key
+            )
+          }
+
+          return key.toLowerCase().includes(query) || key.includes(cssClass) || fCssClass.includes(cssClass);
         })
       )
-
     }
   }
 }
