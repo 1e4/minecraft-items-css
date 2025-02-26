@@ -1,5 +1,5 @@
 .icon-32 {
-  background-image: url('./InvSprite.webp');
+  background-image: url('/minecraft-items-spritesheet.png');
   image-rendering: crisp-edges;
   display:inline-block;
   height:calc(32px / var(--n));
@@ -113,6 +113,13 @@
   /* coordinates of the image */
   --i:-1; 
   --j:-19; 
+}
+.acacia-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-8; 
+  --j:-4; 
 }
 .acacia-leaves {
   --n:1; /* scale */
@@ -387,6 +394,181 @@
   --i:-12; 
   --j:-9; 
 }
+.amethyst-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-28; 
+}
+.amethyst-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-29; 
+}
+.amethyst-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:--1; 
+}
+.amethyst-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-0; 
+}
+.amethyst-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-1; 
+}
+.amethyst-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-2; 
+}
+.amethyst-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-3; 
+}
+.amethyst-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-5; 
+}
+.amethyst-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-6; 
+}
+.amethyst-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-7; 
+}
+.amethyst-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-8; 
+}
+.amethyst-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-10; 
+}
+.amethyst-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-11; 
+}
+.amethyst-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-12; 
+}
+.amethyst-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-14; 
+}
+.amethyst-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-16; 
+}
+.amethyst-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-17; 
+}
+.amethyst-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-19; 
+}
+.amethyst-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-20; 
+}
+.amethyst-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-22; 
+}
+.amethyst-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-23; 
+}
+.amethyst-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-24; 
+}
+.amethyst-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-25; 
+}
+.amethyst-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-27; 
+}
+.amethyst-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-28; 
+}
 .ammonia {
   --n:1; /* scale */
   
@@ -435,6 +617,13 @@
   /* coordinates of the image */
   --i:-0; 
   --j:-20; 
+}
+.angler-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-3; 
 }
 .ankle-monitor {
   --n:1; /* scale */
@@ -485,6 +674,13 @@
   --i:-63; 
   --j:-17; 
 }
+.archer-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-16; 
+}
 .argentum {
   --n:1; /* scale */
   
@@ -506,6 +702,13 @@
   --i:-98; 
   --j:-13; 
 }
+.arms-up-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-17; 
+}
 .arrow {
   --n:1; /* scale */
   
@@ -526,6 +729,13 @@
   /* coordinates of the image */
   --i:-74; 
   --j:-14; 
+}
+.arrow-of-big {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-20; 
 }
 .arrow-of-decay {
   --n:1; /* scale */
@@ -617,6 +827,13 @@
   /* coordinates of the image */
   --i:-39; 
   --j:-27; 
+}
+.arrow-of-small {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-21; 
 }
 .arrow-of-splashing {
   --n:1; /* scale */
@@ -757,6 +974,202 @@
   /* coordinates of the image */
   --i:-74; 
   --j:-4; 
+}
+.bamboo-button {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-29; 
+}
+.bamboo-door {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-30; 
+}
+.bamboo-fence {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-21; 
+}
+.bamboo-fence-gate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:--1; 
+}
+.bamboo-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-9; 
+}
+.bamboo-mosaic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-23; 
+}
+.bamboo-mosaic-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-24; 
+}
+.bamboo-mosaic-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-25; 
+}
+.bamboo-planks {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-26; 
+}
+.bamboo-pressure-plate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-1; 
+}
+.bamboo-raft {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-17; 
+}
+.bamboo-raft-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-20; 
+}
+.bamboo-raft-with-chest {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-18; 
+}
+.bamboo-raft-with-chest-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-21; 
+}
+.bamboo-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-7; 
+}
+.bamboo-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-27; 
+}
+.bamboo-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-28; 
+}
+.bamboo-trapdoor {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-6; 
+}
+.bamboo-wood-button {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-29; 
+}
+.bamboo-wood-door {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-30; 
+}
+.bamboo-wood-fence {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-21; 
+}
+.bamboo-wood-fence-gate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:--1; 
+}
+.bamboo-wood-planks {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-26; 
+}
+.bamboo-wood-pressure-plate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-1; 
+}
+.bamboo-wood-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-7; 
+}
+.bamboo-wood-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-27; 
+}
+.bamboo-wood-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-28; 
+}
+.bamboo-wood-trapdoor {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-6; 
 }
 .banner {
   --n:1; /* scale */
@@ -1010,6 +1423,13 @@
   --i:-1; 
   --j:-20; 
 }
+.birch-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-10; 
+}
 .birch-leaves {
   --n:1; /* scale */
   
@@ -1170,6 +1590,13 @@
   /* coordinates of the image */
   --i:-55; 
   --j:-22; 
+}
+.bit {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-24; 
 }
 .black-balloon {
   --n:1; /* scale */
@@ -1696,6 +2123,13 @@
   --i:-12; 
   --j:-1; 
 }
+.blade-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-4; 
+}
 .blank-spawn-egg {
   --n:1; /* scale */
   
@@ -1758,6 +2192,13 @@
   /* coordinates of the image */
   --i:-12; 
   --j:-11; 
+}
+.block-of-bamboo {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-26; 
 }
 .block-of-coal {
   --n:1; /* scale */
@@ -1856,6 +2297,13 @@
   /* coordinates of the image */
   --i:-104; 
   --j:-2; 
+}
+.block-of-stripped-bamboo {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-27; 
 }
 .blue-balloon {
   --n:1; /* scale */
@@ -2501,12 +2949,19 @@
   --i:-59; 
   --j:-26; 
 }
-.bottle-o-enchanting {
+.bottle-of-mob {
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-108; 
-  --j:-9; 
+  --i:-38; 
+  --j:-26; 
+}
+.bottle-of-void {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-20; 
 }
 .bow {
   --n:1; /* scale */
@@ -2591,6 +3046,13 @@
   /* coordinates of the image */
   --i:-63; 
   --j:-18; 
+}
+.brewer-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-5; 
 }
 .brewing-stand {
   --n:1; /* scale */
@@ -3194,6 +3656,13 @@
   --i:-22; 
   --j:-16; 
 }
+.brush {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-21; 
+}
 .bubble-column {
   --n:1; /* scale */
   
@@ -3348,12 +3817,26 @@
   --i:-38; 
   --j:-2; 
 }
+.burn-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-6; 
+}
 .buttercup {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-3; 
   --j:-12; 
+}
+.byte-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-27; 
 }
 .cactus {
   --n:1; /* scale */
@@ -3438,6 +3921,13 @@
   /* coordinates of the image */
   --i:-55; 
   --j:-28; 
+}
+.camel-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-10; 
 }
 .camera {
   --n:1; /* scale */
@@ -3649,6 +4139,202 @@
   --i:-7; 
   --j:-9; 
 }
+.cheese {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-28; 
+}
+.cherry-boat {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-22; 
+}
+.cherry-boat-with-chest {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-23; 
+}
+.cherry-button {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-3; 
+}
+.cherry-door {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-4; 
+}
+.cherry-fence {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-28; 
+}
+.cherry-fence-gate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-5; 
+}
+.cherry-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-26; 
+}
+.cherry-leaves {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-10; 
+}
+.cherry-log {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-11; 
+}
+.cherry-planks {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-29; 
+}
+.cherry-pressure-plate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-6; 
+}
+.cherry-sapling {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-12; 
+}
+.cherry-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-9; 
+}
+.cherry-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-30; 
+}
+.cherry-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:--1; 
+}
+.cherry-trapdoor {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-7; 
+}
+.cherry-wood {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-0; 
+}
+.cherry-wood-button {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-3; 
+}
+.cherry-wood-door {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-4; 
+}
+.cherry-wood-fence {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-28; 
+}
+.cherry-wood-fence-gate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-5; 
+}
+.cherry-wood-planks {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-29; 
+}
+.cherry-wood-pressure-plate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-6; 
+}
+.cherry-wood-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-9; 
+}
+.cherry-wood-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-30; 
+}
+.cherry-wood-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:--1; 
+}
+.cherry-wood-trapdoor {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-7; 
+}
 .chest {
   --n:1; /* scale */
   
@@ -3689,6 +4375,13 @@
   
   /* coordinates of the image */
   --i:-112; 
+  --j:-15; 
+}
+.chiseled-bookshelf {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
   --j:-15; 
 }
 .chiseled-deepslate {
@@ -3880,6 +4573,20 @@
   --i:-30; 
   --j:-13; 
 }
+.coast-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-6; 
+  --j:-11; 
+}
+.coast-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-6; 
+  --j:-11; 
+}
 .cobalt {
   --n:1; /* scale */
   
@@ -4034,6 +4741,13 @@
   --i:-60; 
   --j:-10; 
 }
+.compound-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-29; 
+}
 .conduit {
   --n:1; /* scale */
   
@@ -4173,6 +4887,195 @@
   /* coordinates of the image */
   --i:-14; 
   --j:-0; 
+}
+.copper-sink {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-30; 
+}
+.copper-spleaves {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:--1; 
+}
+.copper-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-29; 
+}
+.copper-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-26; 
+  --j:-30; 
+}
+.copper-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:--1; 
+}
+.copper-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-0; 
+}
+.copper-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-1; 
+}
+.copper-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-3; 
+}
+.copper-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-4; 
+}
+.copper-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-8; 
+}
+.copper-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-9; 
+}
+.copper-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-10; 
+}
+.copper-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-11; 
+}
+.copper-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-12; 
+}
+.copper-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-13; 
+}
+.copper-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-14; 
+}
+.copper-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-15; 
+}
+.copper-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-17; 
+}
+.copper-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-18; 
+}
+.copper-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-20; 
+}
+.copper-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-22; 
+}
+.copper-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-23; 
+}
+.copper-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-24; 
+}
+.copper-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-25; 
+}
+.copper-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-26; 
+}
+.copper-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-27; 
+}
+.copper-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-28; 
 }
 .cornflower {
   --n:1; /* scale */
@@ -4320,6 +5223,13 @@
   /* coordinates of the image */
   --i:-4; 
   --j:-29; 
+}
+.crimson-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-11; 
 }
 .crimson-hyphae {
   --n:1; /* scale */
@@ -5014,6 +5924,13 @@
   --i:-40; 
   --j:-0; 
 }
+.damaged-brush {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-24; 
+}
 .damaged-carrot-on-a-stick {
   --n:1; /* scale */
   
@@ -5483,6 +6400,13 @@
   --i:-21; 
   --j:-19; 
 }
+.danger-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-7; 
+}
 .dark-gray-beaker {
   --n:1; /* scale */
   
@@ -5580,6 +6504,13 @@
   /* coordinates of the image */
   --i:-1; 
   --j:-21; 
+}
+.dark-oak-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-12; 
 }
 .dark-oak-leaves {
   --n:1; /* scale */
@@ -5924,6 +6855,13 @@
   --i:-35; 
   --j:-19; 
 }
+.decorated-pot {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-27; 
+}
 .deepslate {
   --n:1; /* scale */
   
@@ -6064,6 +7002,20 @@
   --i:-44; 
   --j:-27; 
 }
+.desert-village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.desert-village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
+}
 .detector-rail {
   --n:1; /* scale */
   
@@ -6098,6 +7050,13 @@
   /* coordinates of the image */
   --i:-78; 
   --j:-4; 
+}
+.diamond-drows {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-7; 
 }
 .diamond-heart {
   --n:1; /* scale */
@@ -6161,6 +7120,181 @@
   /* coordinates of the image */
   --i:-113; 
   --j:-18; 
+}
+.diamond-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-29; 
+}
+.diamond-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-27; 
+  --j:-30; 
+}
+.diamond-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-0; 
+}
+.diamond-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-1; 
+}
+.diamond-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-2; 
+}
+.diamond-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-3; 
+}
+.diamond-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-5; 
+}
+.diamond-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-8; 
+}
+.diamond-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-15; 
+}
+.diamond-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-16; 
+}
+.diamond-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-17; 
+}
+.diamond-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-18; 
+}
+.diamond-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-19; 
+}
+.diamond-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-20; 
+}
+.diamond-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-21; 
+}
+.diamond-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-22; 
+}
+.diamond-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-24; 
+}
+.diamond-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-25; 
+}
+.diamond-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-27; 
+}
+.diamond-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-28; 
+}
+.diamond-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-29; 
+}
+.diamond-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-28; 
+  --j:-30; 
+}
+.diamond-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:--1; 
+}
+.diamond-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-1; 
+}
+.diamond-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-2; 
 }
 .diorite {
   --n:1; /* scale */
@@ -6260,6 +7394,13 @@
   --i:-27; 
   --j:-19; 
 }
+.double-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-1; 
+}
 .dragon-egg {
   --n:1; /* scale */
   
@@ -6294,13 +7435,6 @@
   /* coordinates of the image */
   --i:-3; 
   --j:-11; 
-}
-.dragons-breath {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-98; 
-  --j:-1; 
 }
 .dried-kelp {
   --n:1; /* scale */
@@ -6343,6 +7477,27 @@
   /* coordinates of the image */
   --i:-56; 
   --j:-7; 
+}
+.dune-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-29; 
+}
+.dune-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-29; 
+}
+.dupe-hack {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-8; 
 }
 .dysprosium {
   --n:1; /* scale */
@@ -6421,6 +7576,181 @@
   --i:-106; 
   --j:-0; 
 }
+.emerald-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-3; 
+}
+.emerald-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-5; 
+}
+.emerald-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-7; 
+}
+.emerald-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-9; 
+}
+.emerald-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-11; 
+}
+.emerald-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-14; 
+}
+.emerald-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-15; 
+}
+.emerald-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-17; 
+}
+.emerald-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-18; 
+}
+.emerald-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-19; 
+}
+.emerald-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-20; 
+}
+.emerald-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-21; 
+}
+.emerald-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-22; 
+}
+.emerald-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-23; 
+}
+.emerald-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-24; 
+}
+.emerald-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-26; 
+}
+.emerald-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-27; 
+}
+.emerald-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-28; 
+}
+.emerald-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-29; 
+  --j:-30; 
+}
+.emerald-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:--1; 
+}
+.emerald-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-0; 
+}
+.emerald-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-1; 
+}
+.emerald-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-2; 
+}
+.emerald-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-9; 
+}
+.emerald-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-11; 
+}
 .empty-locator-map {
   --n:1; /* scale */
   
@@ -6439,8 +7769,8 @@
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-8; 
-  --j:-4; 
+  --i:-100; 
+  --j:-5; 
 }
 .enchanted-book {
   --n:1; /* scale */
@@ -6453,8 +7783,8 @@
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-8; 
-  --j:-4; 
+  --i:-100; 
+  --j:-5; 
 }
 .enchanting-table {
   --n:1; /* scale */
@@ -6596,6 +7926,13 @@
   --i:-74; 
   --j:-3; 
 }
+.ender-dragon-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-22; 
+}
 .ender-pearl {
   --n:1; /* scale */
   
@@ -6652,6 +7989,13 @@
   --i:-44; 
   --j:-2; 
 }
+.explorer-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-8; 
+}
 .exposed-copper {
   --n:1; /* scale */
   
@@ -6693,6 +8037,20 @@
   /* coordinates of the image */
   --i:-12; 
   --j:-29; 
+}
+.eye-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:--1; 
+}
+.eye-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:--1; 
 }
 .eye-drops {
   --n:1; /* scale */
@@ -6904,6 +8262,13 @@
   --i:-111; 
   --j:-15; 
 }
+.float-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-3; 
+}
 .flower-pot {
   --n:1; /* scale */
   
@@ -6987,6 +8352,13 @@
   /* coordinates of the image */
   --i:-56; 
   --j:-16; 
+}
+.friend-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-9; 
 }
 .frog-spawn {
   --n:1; /* scale */
@@ -7239,6 +8611,181 @@
   /* coordinates of the image */
   --i:-106; 
   --j:-1; 
+}
+.gold-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-12; 
+}
+.gold-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-14; 
+}
+.gold-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-15; 
+}
+.gold-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-16; 
+}
+.gold-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-17; 
+}
+.gold-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-19; 
+}
+.gold-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-21; 
+}
+.gold-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-22; 
+}
+.gold-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-26; 
+}
+.gold-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-27; 
+}
+.gold-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-28; 
+}
+.gold-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-29; 
+}
+.gold-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-30; 
+  --j:-30; 
+}
+.gold-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:--1; 
+}
+.gold-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-0; 
+}
+.gold-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-1; 
+}
+.gold-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-2; 
+}
+.gold-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-3; 
+}
+.gold-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-4; 
+}
+.gold-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-5; 
+}
+.gold-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-8; 
+}
+.gold-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-9; 
+}
+.gold-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-11; 
+}
+.gold-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-12; 
+}
+.gold-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-13; 
 }
 .golden-apple {
   --n:1; /* scale */
@@ -8738,6 +10285,20 @@
   --i:-61; 
   --j:-22; 
 }
+.heart-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-10; 
+}
+.heartbreak-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-11; 
+}
 .heavy-weighted-pressure-plate {
   --n:1; /* scale */
   
@@ -8765,13 +10326,6 @@
   /* coordinates of the image */
   --i:-6; 
   --j:-1; 
-}
-.hoglin-spawn-egg-be {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-6; 
-  --j:-11; 
 }
 .hoglin-spawn-egg-revision-1 {
   --n:1; /* scale */
@@ -8941,6 +10495,27 @@
   --i:-36; 
   --j:--1; 
 }
+.host-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-29; 
+}
+.host-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-29; 
+}
+.howl-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-12; 
+}
 .husk-spawn-egg {
   --n:1; /* scale */
   
@@ -9095,6 +10670,13 @@
   --i:-98; 
   --j:-23; 
 }
+.int-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-5; 
+}
 .inverted-daylight-detector {
   --n:1; /* scale */
   
@@ -9185,6 +10767,13 @@
   /* coordinates of the image */
   --i:-29; 
   --j:-12; 
+}
+.iron-golem-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-23; 
 }
 .iron-heart {
   --n:1; /* scale */
@@ -9277,26 +10866,187 @@
   --i:-29; 
   --j:-13; 
 }
+.iron-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-15; 
+}
+.iron-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-16; 
+}
+.iron-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-19; 
+}
+.iron-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-20; 
+}
+.iron-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-21; 
+}
+.iron-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-22; 
+}
+.iron-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-23; 
+}
+.iron-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-24; 
+}
+.iron-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-25; 
+}
+.iron-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-26; 
+}
+.iron-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-27; 
+}
+.iron-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-28; 
+}
+.iron-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-29; 
+}
+.iron-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-31; 
+  --j:-30; 
+}
+.iron-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:--1; 
+}
+.iron-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-0; 
+}
+.iron-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-1; 
+}
+.iron-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-2; 
+}
+.iron-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-3; 
+}
+.iron-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-4; 
+}
+.iron-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-5; 
+}
+.iron-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-6; 
+}
+.iron-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-7; 
+}
+.iron-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-8; 
+}
+.iron-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-9; 
+}
 .item-frame {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-98; 
   --j:-15; 
-}
-.jack-olantern {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-102; 
-  --j:-1; 
-}
-.jack-olantern-be {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-6; 
-  --j:-28; 
 }
 .jar {
   --n:1; /* scale */
@@ -9417,6 +11167,20 @@
   --i:-17; 
   --j:-6; 
 }
+.jungle-explorer-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.jungle-explorer-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
+}
 .jungle-fence {
   --n:1; /* scale */
   
@@ -9444,6 +11208,13 @@
   /* coordinates of the image */
   --i:-1; 
   --j:-22; 
+}
+.jungle-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-15; 
 }
 .jungle-leaves {
   --n:1; /* scale */
@@ -9641,6 +11412,13 @@
   --i:-56; 
   --j:-30; 
 }
+.la-baguette {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-5; 
+}
 .lab-table {
   --n:1; /* scale */
   
@@ -9704,6 +11482,181 @@
   --i:-106; 
   --j:-3; 
 }
+.lapis-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-10; 
+}
+.lapis-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-11; 
+}
+.lapis-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-12; 
+}
+.lapis-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-13; 
+}
+.lapis-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-15; 
+}
+.lapis-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-16; 
+}
+.lapis-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-17; 
+}
+.lapis-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-18; 
+}
+.lapis-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-19; 
+}
+.lapis-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-20; 
+}
+.lapis-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-21; 
+}
+.lapis-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-22; 
+}
+.lapis-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-23; 
+}
+.lapis-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-24; 
+}
+.lapis-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-26; 
+}
+.lapis-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-27; 
+}
+.lapis-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-28; 
+}
+.lapis-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-29; 
+}
+.lapis-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-32; 
+  --j:-30; 
+}
+.lapis-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:--1; 
+}
+.lapis-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-0; 
+}
+.lapis-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-1; 
+}
+.lapis-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-2; 
+}
+.lapis-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-3; 
+}
+.lapis-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-5; 
+}
 .large-amethyst-bud {
   --n:1; /* scale */
   
@@ -9759,6 +11712,13 @@
   /* coordinates of the image */
   --i:-57; 
   --j:-0; 
+}
+.le-tricolore {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-6; 
 }
 .lead {
   --n:1; /* scale */
@@ -9892,6 +11852,20 @@
   /* coordinates of the image */
   --i:-76; 
   --j:-1; 
+}
+.left-curly {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-6; 
+}
+.left-square {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-7; 
 }
 .lever {
   --n:1; /* scale */
@@ -11636,6 +13610,13 @@
   --i:-9; 
   --j:-24; 
 }
+.lingering-potion-of-big {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-9; 
+}
 .lingering-potion-of-decay {
   --n:1; /* scale */
   
@@ -11804,6 +13785,13 @@
   --i:-10; 
   --j:-3; 
 }
+.lingering-potion-of-small {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-11; 
+}
 .lingering-potion-of-strength {
   --n:1; /* scale */
   
@@ -11894,6 +13882,13 @@
   /* coordinates of the image */
   --i:-10; 
   --j:-10; 
+}
+.list-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-12; 
 }
 .lit-deepslate-redstone-ore-be {
   --n:1; /* scale */
@@ -12020,6 +14015,20 @@
   /* coordinates of the image */
   --i:-18; 
   --j:-0; 
+}
+.long-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-13; 
+}
+.longer-string {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-9; 
 }
 .loom {
   --n:1; /* scale */
@@ -12651,6 +14660,13 @@
   --i:-18; 
   --j:-9; 
 }
+.mangrove-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-16; 
+}
 .mangrove-leaves {
   --n:1; /* scale */
   
@@ -12693,13 +14709,6 @@
   --i:-19; 
   --j:--1; 
 }
-.mangrove-sapling {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-18; 
-  --j:-30; 
-}
 .mangrove-sign {
   --n:1; /* scale */
   
@@ -12734,6 +14743,83 @@
   /* coordinates of the image */
   --i:-18; 
   --j:-13; 
+}
+.mangrove-wood-button {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-22; 
+}
+.mangrove-wood-door {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-23; 
+}
+.mangrove-wood-fence {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-6; 
+}
+.mangrove-wood-fence-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-8; 
+}
+.mangrove-wood-fence-gate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-9; 
+}
+.mangrove-wood-planks {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-10; 
+}
+.mangrove-wood-pressure-plate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-24; 
+}
+.mangrove-wood-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-27; 
+}
+.mangrove-wood-slab {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-11; 
+}
+.mangrove-wood-stairs {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-12; 
+}
+.mangrove-wood-trapdoor {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-18; 
+  --j:-25; 
 }
 .map {
   --n:1; /* scale */
@@ -13183,33 +15269,19 @@
   --i:-113; 
   --j:-10; 
 }
+.miner-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-13; 
+}
 .missing-model-je1 {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-40; 
   --j:-25; 
-}
-.missing-texture {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-40; 
-  --j:-25; 
-}
-.missing-texture-15 {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-17; 
-  --j:-9; 
-}
-.missing-texture-be {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-11; 
-  --j:-3; 
 }
 .molybdenum {
   --n:1; /* scale */
@@ -13222,8 +15294,22 @@
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-30; 
-  --j:-24; 
+  --i:-105; 
+  --j:-18; 
+}
+.monster-spawner-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-15; 
+  --j:-27; 
+}
+.monster-spawner-je {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-105; 
+  --j:-18; 
 }
 .moobloom-spawn-egg {
   --n:1; /* scale */
@@ -13231,6 +15317,13 @@
   /* coordinates of the image */
   --i:-19; 
   --j:-18; 
+}
+.moon-cow-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-12; 
 }
 .mooshroom-spawn-egg {
   --n:1; /* scale */
@@ -13350,6 +15443,13 @@
   /* coordinates of the image */
   --i:-105; 
   --j:-7; 
+}
+.mourner-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-14; 
 }
 .mud {
   --n:1; /* scale */
@@ -13540,6 +15640,13 @@
   --i:-9; 
   --j:-0; 
 }
+.music-disc-relic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-11; 
+}
 .music-disc-stal {
   --n:1; /* scale */
   
@@ -13581,6 +15688,13 @@
   /* coordinates of the image */
   --i:-3; 
   --j:-9; 
+}
+.name {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-14; 
 }
 .name-tag {
   --n:1; /* scale */
@@ -13869,6 +15983,195 @@
   --i:-4; 
   --j:-12; 
 }
+.netherite-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-6; 
+}
+.netherite-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-7; 
+}
+.netherite-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-9; 
+}
+.netherite-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-12; 
+}
+.netherite-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-13; 
+}
+.netherite-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-14; 
+}
+.netherite-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-15; 
+}
+.netherite-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-16; 
+}
+.netherite-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-17; 
+}
+.netherite-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-18; 
+}
+.netherite-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-19; 
+}
+.netherite-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-20; 
+}
+.netherite-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-21; 
+}
+.netherite-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-27; 
+}
+.netherite-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-28; 
+}
+.netherite-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-29; 
+}
+.netherite-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-33; 
+  --j:-30; 
+}
+.netherite-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:--1; 
+}
+.netherite-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-0; 
+}
+.netherite-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-1; 
+}
+.netherite-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-2; 
+}
+.netherite-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-3; 
+}
+.netherite-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-4; 
+}
+.netherite-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-5; 
+}
+.netherite-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-6; 
+}
+.netherite-upgrade {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-0; 
+}
+.netherite-upgrade-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-0; 
+}
 .netherrack {
   --n:1; /* scale */
   
@@ -14001,6 +16304,13 @@
   /* coordinates of the image */
   --i:-50; 
   --j:-19; 
+}
+.oak-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-17; 
 }
 .oak-leaves {
   --n:1; /* scale */
@@ -14863,6 +17173,13 @@
   --i:-57; 
   --j:-22; 
 }
+.packed-air {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-73; 
+  --j:-26; 
+}
 .packed-ice {
   --n:1; /* scale */
   
@@ -15003,6 +17320,13 @@
   --i:-19; 
   --j:-11; 
 }
+.pickaxe-block {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-15; 
+}
 .pig-spawn-egg {
   --n:1; /* scale */
   
@@ -15023,6 +17347,13 @@
   /* coordinates of the image */
   --i:-8; 
   --j:-5; 
+}
+.piglin-head {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-28; 
 }
 .piglin-spawn-egg {
   --n:1; /* scale */
@@ -15402,6 +17733,13 @@
   --i:-93; 
   --j:-4; 
 }
+.pink-petals {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-13; 
+}
 .pink-piglin-banner {
   --n:1; /* scale */
   
@@ -15549,12 +17887,47 @@
   --i:-41; 
   --j:-3; 
 }
+.pitcher-plant {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-27; 
+}
+.pitcher-pod {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-28; 
+}
+.place-block {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-39; 
+  --j:-16; 
+}
 .placeholder-texture {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-41; 
   --j:-4; 
+}
+.plains-village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.plains-village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
 }
 .platinum {
   --n:1; /* scale */
@@ -15569,6 +17942,13 @@
   /* coordinates of the image */
   --i:-30; 
   --j:-5; 
+}
+.plenty-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-15; 
 }
 .plumbum {
   --n:1; /* scale */
@@ -15906,6 +18286,13 @@
   --i:-4; 
   --j:-0; 
 }
+.potion-of-big {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-1; 
+}
 .potion-of-decay {
   --n:1; /* scale */
   
@@ -16074,6 +18461,13 @@
   --i:-9; 
   --j:-15; 
 }
+.potion-of-small {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-2; 
+}
 .potion-of-strength {
   --n:1; /* scale */
   
@@ -16227,6 +18621,13 @@
   /* coordinates of the image */
   --i:-0; 
   --j:-27; 
+}
+.prize-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-18; 
 }
 .promethium {
   --n:1; /* scale */
@@ -16879,6 +19280,181 @@
   --i:-103; 
   --j:--1; 
 }
+.quartz-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-7; 
+}
+.quartz-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-9; 
+}
+.quartz-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-10; 
+}
+.quartz-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-12; 
+}
+.quartz-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-13; 
+}
+.quartz-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-14; 
+}
+.quartz-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-15; 
+}
+.quartz-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-16; 
+}
+.quartz-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-17; 
+}
+.quartz-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-18; 
+}
+.quartz-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-19; 
+}
+.quartz-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-20; 
+}
+.quartz-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-21; 
+}
+.quartz-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-22; 
+}
+.quartz-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-23; 
+}
+.quartz-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-24; 
+}
+.quartz-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-25; 
+}
+.quartz-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-26; 
+}
+.quartz-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-27; 
+}
+.quartz-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-28; 
+}
+.quartz-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-34; 
+  --j:-29; 
+}
+.quartz-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:--1; 
+}
+.quartz-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-0; 
+}
+.quartz-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-1; 
+}
+.quartz-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-2; 
+}
 .quiver {
   --n:1; /* scale */
   
@@ -16906,13 +19482,6 @@
   /* coordinates of the image */
   --i:-100; 
   --j:-11; 
-}
-.rabbits-foot {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-98; 
-  --j:-7; 
 }
 .radium {
   --n:1; /* scale */
@@ -16955,6 +19524,20 @@
   /* coordinates of the image */
   --i:-114; 
   --j:--1; 
+}
+.raiser-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-30; 
+}
+.raiser-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-30; 
 }
 .ravager-spawn-egg {
   --n:1; /* scale */
@@ -17782,6 +20365,181 @@
   --i:-104; 
   --j:-19; 
 }
+.redstone-trim-chainmail-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-3; 
+}
+.redstone-trim-chainmail-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-4; 
+}
+.redstone-trim-chainmail-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-5; 
+}
+.redstone-trim-chainmail-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-6; 
+}
+.redstone-trim-diamond-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-7; 
+}
+.redstone-trim-diamond-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-8; 
+}
+.redstone-trim-diamond-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-9; 
+}
+.redstone-trim-diamond-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-10; 
+}
+.redstone-trim-golden-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-11; 
+}
+.redstone-trim-golden-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-12; 
+}
+.redstone-trim-golden-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-13; 
+}
+.redstone-trim-golden-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-14; 
+}
+.redstone-trim-iron-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-15; 
+}
+.redstone-trim-iron-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-16; 
+}
+.redstone-trim-iron-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-18; 
+}
+.redstone-trim-iron-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-35; 
+  --j:-20; 
+}
+.redstone-trim-leather-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-17; 
+}
+.redstone-trim-leather-cap {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-18; 
+}
+.redstone-trim-leather-pants {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-19; 
+}
+.redstone-trim-leather-tunic {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-20; 
+}
+.redstone-trim-netherite-boots {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-21; 
+}
+.redstone-trim-netherite-chestplate {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-22; 
+}
+.redstone-trim-netherite-helmet {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-23; 
+}
+.redstone-trim-netherite-leggings {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-24; 
+}
+.redstone-trim-turtle-shell {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-36; 
+  --j:-25; 
+}
 .reinforced-deepslate {
   --n:1; /* scale */
   
@@ -17809,6 +20567,34 @@
   /* coordinates of the image */
   --i:-58; 
   --j:-2; 
+}
+.rib-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-1; 
+}
+.rib-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-1; 
+}
+.right-curly {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-3; 
+}
+.right-square {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-4; 
 }
 .roentgenium {
   --n:1; /* scale */
@@ -18006,6 +20792,20 @@
   --i:-1; 
   --j:--1; 
 }
+.savanna-village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.savanna-village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
+}
 .scaffolding {
   --n:1; /* scale */
   
@@ -18139,6 +20939,41 @@
   --i:-58; 
   --j:-10; 
 }
+.sentry-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-2; 
+}
+.sentry-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-2; 
+}
+.shaper-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:--1; 
+}
+.shaper-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:--1; 
+}
+.sheaf-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-16; 
+}
 .shears {
   --n:1; /* scale */
   
@@ -18160,12 +20995,26 @@
   --i:-43; 
   --j:-15; 
 }
+.shelter-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-17; 
+}
 .shield {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-78; 
   --j:-30; 
+}
+.short-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-5; 
 }
 .shroomlight {
   --n:1; /* scale */
@@ -18222,6 +21071,20 @@
   /* coordinates of the image */
   --i:-11; 
   --j:-1; 
+}
+.silence-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-0; 
+}
+.silence-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-0; 
 }
 .silicon {
   --n:1; /* scale */
@@ -18300,6 +21163,13 @@
   --i:-43; 
   --j:-17; 
 }
+.skull-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-19; 
+}
 .slate {
   --n:1; /* scale */
   
@@ -18376,6 +21246,13 @@
   /* coordinates of the image */
   --i:-76; 
   --j:-14; 
+}
+.smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-0; 
 }
 .smoker {
   --n:1; /* scale */
@@ -18482,6 +21359,41 @@
   --i:-103; 
   --j:-17; 
 }
+.sniffer-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-26; 
+}
+.sniffer-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-20; 
+}
+.snort-pottery-sherd {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-19; 
+}
+.snout-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-7; 
+}
+.snout-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-7; 
+}
 .snow {
   --n:1; /* scale */
   
@@ -18496,12 +21408,33 @@
   --i:-103; 
   --j:-18; 
 }
+.snow-golem-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-24; 
+}
 .snowball {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-113; 
   --j:-21; 
+}
+.snowy-village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.snowy-village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
 }
 .soap {
   --n:1; /* scale */
@@ -18608,6 +21541,13 @@
   --i:-28; 
   --j:-4; 
 }
+.spawn-axolotl {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-13; 
+  --j:-23; 
+}
 .spawn-bat {
   --n:1; /* scale */
   
@@ -18628,6 +21568,13 @@
   /* coordinates of the image */
   --i:-35; 
   --j:-22; 
+}
+.spawn-camel {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-10; 
 }
 .spawn-cat {
   --n:1; /* scale */
@@ -18713,6 +21660,13 @@
   --i:-42; 
   --j:-27; 
 }
+.spawn-ender-dragon {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-22; 
+}
 .spawn-enderman {
   --n:1; /* scale */
   
@@ -18762,6 +21716,13 @@
   --i:-35; 
   --j:-29; 
 }
+.spawn-glow-squid {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-14; 
+  --j:-8; 
+}
 .spawn-goat {
   --n:1; /* scale */
   
@@ -18776,6 +21737,13 @@
   --i:-35; 
   --j:-30; 
 }
+.spawn-hoglin {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-6; 
+  --j:-1; 
+}
 .spawn-horse {
   --n:1; /* scale */
   
@@ -18789,6 +21757,13 @@
   /* coordinates of the image */
   --i:-42; 
   --j:-28; 
+}
+.spawn-iron-golem {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-23; 
 }
 .spawn-llama {
   --n:1; /* scale */
@@ -18874,6 +21849,13 @@
   --i:-36; 
   --j:-3; 
 }
+.spawn-piglin-brute {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-8; 
+  --j:-5; 
+}
 .spawn-pillager {
   --n:1; /* scale */
   
@@ -18957,6 +21939,13 @@
   /* coordinates of the image */
   --i:-36; 
   --j:-9; 
+}
+.spawn-snow-golem {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-24; 
 }
 .spawn-spider {
   --n:1; /* scale */
@@ -19116,15 +22105,8 @@
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-105; 
-  --j:-18; 
-}
-.spawner-be {
-  --n:1; /* scale */
-  
-  /* coordinates of the image */
-  --i:-15; 
-  --j:-27; 
+  --i:-30; 
+  --j:-24; 
 }
 .spectral-arrow {
   --n:1; /* scale */
@@ -19161,12 +22143,33 @@
   --i:-43; 
   --j:-19; 
 }
+.spire-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-21; 
+}
+.spire-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-21; 
+}
 .splash-awkward-potion-revision-1 {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-10; 
   --j:-11; 
+}
+.splash-bottle-of-mob {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-6; 
 }
 .splash-mundane-potion {
   --n:1; /* scale */
@@ -19181,6 +22184,13 @@
   /* coordinates of the image */
   --i:-10; 
   --j:-12; 
+}
+.splash-potion-of-big {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-7; 
 }
 .splash-potion-of-decay {
   --n:1; /* scale */
@@ -19349,6 +22359,13 @@
   /* coordinates of the image */
   --i:-10; 
   --j:-23; 
+}
+.splash-potion-of-small {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-8; 
 }
 .splash-potion-of-strength {
   --n:1; /* scale */
@@ -19546,6 +22563,13 @@
   --i:-1; 
   --j:-24; 
 }
+.spruce-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-19; 
+}
 .spruce-leaves {
   --n:1; /* scale */
   
@@ -19720,6 +22744,13 @@
   /* coordinates of the image */
   --i:-43; 
   --j:-20; 
+}
+.sssyntax-error {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-9; 
 }
 .stannum {
   --n:1; /* scale */
@@ -19952,6 +22983,13 @@
   --i:-110; 
   --j:-10; 
 }
+.string-tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-11; 
+}
 .stripped-acacia-log {
   --n:1; /* scale */
   
@@ -19979,6 +23017,20 @@
   /* coordinates of the image */
   --i:-65; 
   --j:-20; 
+}
+.stripped-cherry-log {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-1; 
+}
+.stripped-cherry-wood {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-2; 
 }
 .stripped-crimson-hyphae {
   --n:1; /* scale */
@@ -20183,6 +23235,20 @@
   --i:-55; 
   --j:-6; 
 }
+.suspicious-gravel {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-25; 
+}
+.suspicious-sand {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-8; 
+}
 .suspicious-stew {
   --n:1; /* scale */
   
@@ -20197,6 +23263,20 @@
   --i:-15; 
   --j:-5; 
 }
+.swamp-explorer-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.swamp-explorer-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
+}
 .sweet-berries {
   --n:1; /* scale */
   
@@ -20210,6 +23290,27 @@
   /* coordinates of the image */
   --i:-18; 
   --j:--1; 
+}
+.tag {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-40; 
+  --j:-12; 
+}
+.taiga-village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.taiga-village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
 }
 .tall-grass {
   --n:1; /* scale */
@@ -20316,6 +23417,20 @@
   --i:-58; 
   --j:-22; 
 }
+.tide-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-22; 
+}
+.tide-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-22; 
+}
 .tileinfo_update.name {
   --n:1; /* scale */
   
@@ -20385,6 +23500,20 @@
   /* coordinates of the image */
   --i:-65; 
   --j:-11; 
+}
+.torchflower {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-14; 
+}
+.torchflower-seeds {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-37; 
+  --j:-15; 
 }
 .totem-of-undying {
   --n:1; /* scale */
@@ -20687,12 +23816,40 @@
   --i:-39; 
   --j:-8; 
 }
+.vex-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-23; 
+}
+.vex-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-23; 
+}
 .vex-spawn-egg {
   --n:1; /* scale */
   
   /* coordinates of the image */
   --i:-44; 
   --j:-4; 
+}
+.village-map {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-13; 
+}
+.village-map-be {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-14; 
 }
 .villager-spawn-egg {
   --n:1; /* scale */
@@ -20742,6 +23899,20 @@
   /* coordinates of the image */
   --i:-76; 
   --j:-30; 
+}
+.ward-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-25; 
+}
+.ward-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-25; 
 }
 .warden-spawn-egg {
   --n:1; /* scale */
@@ -20805,6 +23976,13 @@
   /* coordinates of the image */
   --i:-7; 
   --j:--1; 
+}
+.warped-hanging-sign {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-20; 
+  --j:-20; 
 }
 .warped-hyphae {
   --n:1; /* scale */
@@ -21120,6 +24298,20 @@
   /* coordinates of the image */
   --i:-13; 
   --j:-9; 
+}
+.wayfinder-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-1; 
+}
+.wayfinder-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-38; 
+  --j:-1; 
 }
 .weathered-copper {
   --n:1; /* scale */
@@ -21709,6 +24901,20 @@
   --i:-24; 
   --j:-24; 
 }
+.wild-armor-trim {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-27; 
+}
+.wild-armor-trim-smithing-template {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-25; 
+  --j:-27; 
+}
 .witch-spawn-egg {
   --n:1; /* scale */
   
@@ -21743,6 +24949,20 @@
   /* coordinates of the image */
   --i:-43; 
   --j:-1; 
+}
+.wither-spawn-egg {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-21; 
+  --j:-25; 
+}
+.wob {
+  --n:1; /* scale */
+  
+  /* coordinates of the image */
+  --i:-41; 
+  --j:-10; 
 }
 .wolf-spawn-egg {
   --n:1; /* scale */

@@ -1,5 +1,5 @@
 # minecraft-items-css
-Minecraft items and blocks as css
+This converts the minecraft wiki [inventory sprite](https://minecraft.fandom.com/wiki/Template:InvSprite) into css classes so you can use them in your site or app
 
 Using Minecraft Wikis sprite and data returned [here](https://minecraft.fandom.com/wiki/Module:InvSprite) we can parse the sprite to get any item or block on the spritesheet. See demo below for output
 
@@ -16,7 +16,7 @@ Copy the spritesheet in the repository to the same place as the `index.html` or 
 
 ```css
 .icon-32 {
-    background-image: url('./InvSprite.webp');
+    background-image: url('src/spritesheet/InvSprite.webp');
 }
 ```
 
