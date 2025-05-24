@@ -4774,7 +4774,7 @@
   
   /* coordinates of the image */
   --i:-100; 
-  --j:--1; 
+  --j:-1; 
 }
 .cooked-cod {
   --n:1; /* scale */
