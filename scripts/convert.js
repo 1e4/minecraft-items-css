@@ -36,8 +36,8 @@ const remap = {
 
 for (const item in items) {
     const i = items[item];
-    const row = (Math.floor(i.pos / 32)) - 1;
-    const column = Math.floor(i.pos % 32) - 1;
+    const row  = Math.floor((i.pos - 1) / 32);
+    const column = (i.pos - 1) % 32;
     let className = item
         .toLowerCase()
         .split(' ')
@@ -47,7 +47,7 @@ for (const item in items) {
         .replace(")", '')
         .replace(".", '');
 
-    if (Object.keys(remap).includes(className)) {
+    if (remap[className]) {
         className = remap[className];
     }
 
@@ -55,7 +55,7 @@ for (const item in items) {
   --n:1; /* scale */
   
   /* coordinates of the image */
-  --i:-${row + 1}; 
+  --i:-${row}; 
   --j:-${column}; 
 }
 `;
