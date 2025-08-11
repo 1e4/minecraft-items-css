@@ -1,5 +1,4 @@
-import './assets/main.css'
-import '../../src/minecraft-items-spritesheet.css'
+import './assets/app.scss'
 
 import {createApp} from 'vue'
 import {createPinia} from 'pinia'

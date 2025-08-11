@@ -39,9 +39,11 @@ let css = `
 `;
 
 const remap = {
-    '3D': '_3d',
+    '3d': '_3d',
     '???': 'qqq'
 };
+
+const itemMap = [];
 
 for (const item in items) {
     const i = items[item];
@@ -60,9 +62,23 @@ for (const item in items) {
         className = remap[className];
     }
 
+    console.log(sections, i.section);
+
+    const category_name = Object.keys(sections).find(sec => {
+        return sections[sec] === i.section
+    });
+
+    itemMap.push({
+        id: 1,
+        css_class: className,
+        row: row,
+        column: column,
+        real_name: item,
+        category_id: i.section,
+        category_name: category_name
+    })
+
     css += `.${className} {
-  --n:1; /* scale */
-  
   /* coordinates of the image */
   --i:-${row}; 
   --j:-${column}; 
@@ -82,6 +98,10 @@ fs.writeFile("src/minecraft-items-spritesheet.css", css, (err) => {
 
 fs.copyFile("./InvSprite.png", "src/minecraft-items-spritesheet.png", (err) => {
 });
+
+fs.writeFile("data/wiki/itemMap.json", JSON.stringify(itemMap), (err) => {
+
+})
 
 fs.copyFile("./InvSprite.png", "demo/public/minecraft-items-spritesheet.png", (err) => {
 });

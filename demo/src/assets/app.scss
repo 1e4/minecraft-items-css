@@ -1,0 +1,90 @@
+@import './bootstrap';
+@import '../../../src/minecraft-items-spritesheet.css';
+
+#app {
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+
+#icon-list-grid {
+  display: grid;
+  grid-template:
+    'header header'
+    'meta meta'
+    'nav main';
+  height: 100vh;
+  overflow: hidden;
+  grid-template-rows: 60px 50px auto;
+  grid-template-columns: 350px auto;
+
+  .icon-list-meta-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-area: meta;
+  }
+
+  .icon-list-grid-nav {
+    grid-area: nav;
+    overflow-y: scroll;
+
+    ul {
+      margin-left: 0;
+      padding: 1rem;
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  .icon-list-grid-items {
+    grid-area: main;
+    overflow: hidden scroll;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+    justify-self: center;
+    width: 100%;
+    content-visibility: auto;
+
+    > a {
+      //display: flex;
+      padding: 1rem;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  .icon-list-grid-header {
+    grid-area: header;
+    border-bottom: 1px solid #00bd7eff;
+
+    input {
+      height: 100%;
+      width: 100%;
+      background: transparent;
+      border: 0;
+      color: #ccc;
+      padding: 1rem;
+
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+
+.preview-box {
+  //background: rgba(0,0,0,0.1);
+}

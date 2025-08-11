@@ -15,11 +15,6 @@ const outputFilePath = path.join(__dirname, "../data/wiki/ids.json");
 const convertToJSArrayObject = (input) => {
     const items = {};
 
-    const remap = {
-        '3D': '_3d',
-        '???': 'qqq'
-    };
-
     input
         .trim()
         .split(/\n/)
@@ -28,14 +23,7 @@ const convertToJSArrayObject = (input) => {
             if (match) {
                 const key = match[1] || match[2]; // Use bracketed key if present, otherwise use plain key
 
-                console.log(key, remap[key])
-
-                if (remap.hasOwnProperty(key)) {
-                    items[remap[key]] = {pos: Number(match[3]), section: Number(match[4])};
-                    console.log(`Setting key ${remap[key]}`);
-                } else {
-                    items[key] = {pos: Number(match[3]), section: Number(match[4])};
-                }
+                items[key] = {pos: Number(match[3]), section: Number(match[4])};
             }
         });
 
