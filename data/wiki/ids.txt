@@ -1,4 +1,4 @@
-		['3D'] = { pos = 446, section = 32 },
+['3D'] = { pos = 446, section = 32 },
 		['???'] = { pos = 1770, section = 34 },
 		['A Very Fine Item'] = { pos = 263, section = 32 },
 		['Acacia Boat'] = { pos = 637, section = 27 },
@@ -3387,6 +3387,7 @@
 		['Turtle Egg'] = { pos = 1972, section = 5 },
 		['Turtle Egg Revision 1'] = { pos = 1668, section = 29 },
 		['Turtle Helmet'] = { pos = 1681, section = 1 },
+		['Turtle Scute'] = { pos = 1684, section = 23 },
 		['Turtle Shell'] = { pos = 1681, section = 1 },
 		['Turtle Spawn Egg'] = { pos = 1729, section = 24 },
 		['Twisting Vines'] = { pos = 203, section = 16 },
