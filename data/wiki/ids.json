@@ -1,9 +1,9 @@
 {
-  "_3d": {
+  "3D": {
     "pos": 446,
     "section": 32
   },
-  "qqq": {
+  "???": {
     "pos": 1770,
     "section": 34
   },
@@ -13522,6 +13522,10 @@
   "Turtle Helmet": {
     "pos": 1681,
     "section": 1
+  },
+  "Turtle Scute": {
+    "pos": 1684,
+    "section": 23
   },
   "Turtle Shell": {
     "pos": 1681,
