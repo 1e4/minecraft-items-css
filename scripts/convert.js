@@ -2,7 +2,12 @@ const items = require('../data/wiki/ids.json');
 const sections = require('../data/wiki/sections.json');
 const fs = require('fs');
 
-let css = `.icon-32 {
+let css = `
+.icon-size-16 {
+  --n:2 !important;
+}
+
+.mc-icon {
   background-image: url('/minecraft-items-spritesheet.png');
   image-rendering: crisp-edges;
   display:inline-block;
@@ -10,6 +15,10 @@ let css = `.icon-32 {
   width:calc(32px / var(--n));
   background-position:calc(var(--j)/var(--n) * 32px) calc(var(--i)/var(--n) * 32px);
   background-size:calc(1024px / var(--n)) calc(3648px / var(--n));
+}
+
+.icon-size-32 {
+  --n:1 !important;
 }
 
 .icon-size-64 {
