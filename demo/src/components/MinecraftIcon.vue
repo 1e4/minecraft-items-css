@@ -3,18 +3,18 @@
     :to="{
       name: 'icon-preview',
       params: {
-        icon: iconLinkName,
-      },
+        icon: this.iconLinkName
+      }
     }"
     @mouseenter="openCard"
     @mouseleave="closeCard"
     class="item"
     :class="{
-      'cursor-pointer': hover
+      'cursor-pointer': hover,
     }"
   >
     <div @click="copyToClipboard(cssClass)">
-      <span class="mc-icon" :class="[cssClass]"></span>
+      <IconImage :icon="icon" :size="64" />
 
       <div v-if="card.open" class="card-popup">
         <p>{{ this.icon.real_name }}</p>
@@ -48,9 +48,11 @@
 }
 </style>
 <script>
+import IconImage from '@/components/IconImage.vue'
 
 export default {
   name: 'MinecraftIcon',
+  components: { IconImage },
   props: {
     icon: {
       type: Object,
@@ -64,7 +66,7 @@ export default {
     hover: {
       type: Boolean,
       default: true,
-    }
+    },
   },
   data() {
     return {
@@ -83,11 +85,11 @@ export default {
       document.body.removeChild(textarea)
     },
     openCard() {
-      if(!this.hover) return;
+      if (!this.hover) return
       if (!this.card.open) this.card.open = true
     },
     closeCard() {
-      if(!this.hover) return;
+      if (!this.hover) return
       if (this.card.open) this.card.open = false
     },
   },
