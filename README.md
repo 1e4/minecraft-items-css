@@ -3,7 +3,7 @@ This converts the minecraft wiki [inventory sprite](https://minecraft.fandom.com
 
 Using Minecraft Wikis sprite and data returned [here](https://minecraft.fandom.com/wiki/Module:InvSprite) we can parse the sprite to get any item or block on the spritesheet. See demo below for output
 
-[Demo, (ctrl+f to search)](https://1e4.github.io/minecraft-items-css/)
+[Demo, (ctrl+f to search)](https://minecraft-items-css.pages.dev/)
 
 ## Installation
 Import the stylesheet provided
